@@ -87,7 +87,8 @@
 					  ?>
                       
               <br class="clear" />
-              
+                </div>
+                <div class="sixteen columns showajaxcontent border-color pics"> 
               <div class="postcontent fitvids">
               		<?php 
 						$s1=0;
