@@ -107,7 +107,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; letter-spacing:-0.04em; }
 	h1.biggest { font-size: 48px; line-height:44px; margin:15px 0 15px 0; font-weight:lighter; letter-spacing:-0.02em; }
 	h2 { font-size: 30px; line-height: 35px; margin:15px 0 15px 0; }
-	h3 { font-size: 24px; line-height: 29px; }
+	h3 { 
+		font-size: 21px; 
+		line-height: 29px;
+		color:#495458 !important;
+		margin-left:10px;
+		 }
 	h4 { font-size: 21px; line-height: 26px; }
 	h5 { font-size: 18px; line-height: 23px; }
 	h6 { font-size: 12px; line-height: 21px; margin:5px 0 0 0 }
