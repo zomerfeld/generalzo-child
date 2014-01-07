@@ -126,7 +126,7 @@
             
            
                 <div class="fifteensp columns offset-by-half alpha" style="margin-bottom:10px;">
-                      <div class="fifteensp columns offset-by-half alpha pinfo">
+                      <div class="fifteensp columns alpha pinfo">
                            <div class="four columns alpha">
                                         <?php if($categories!="") {?>
                                 <strong><?php _e('Creative Fields','dronetv')?></strong> <br />
