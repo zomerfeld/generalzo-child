@@ -88,7 +88,7 @@
  <body <?php body_class(); ?>>
 	<div class="container">
 		<div class="sixteen columns topmargin">
-            <div class="six columns alpha">
+            <div class="ten columns alpha">
             <a href="#" class="button navbarbutton pull-right"><i class="menu-icon"></i></a>
 				<?php 
                  if(of_get_option('md_header_logo')) { 
@@ -104,11 +104,9 @@
             	<div class="nav-div">
                 <?php 
 				$md_head_search = of_get_option('md_header_disable_search');
+				//$md_head_search = true;
 				$md_head_subtext = of_get_option('md_header_logo_subtext');
 				if(!$md_head_search) : ?>
-                <form action="<?php echo get_site_url()?>">
-            		<input type="text" name="s" class="medium" value=""><button type="submit"><i class='icon-search'></i></button>
-                </form>
                 <?php endif; ?>
                 
 				<?php 
