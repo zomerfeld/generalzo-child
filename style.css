@@ -99,9 +99,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 ================================================== */
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
-		color: #000;
+		/*color: #000; */
+		color:#13AEBB;
 		font-weight: normal; 
-		text-shadow:0 1px 0 #fff
+		/*text-shadow:0 1px 0 #fff */
 		}
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; color:inherit }
 	h1 { font-size: 46px; line-height: 50px; margin-bottom: 14px; letter-spacing:-0.04em; }
@@ -2579,7 +2580,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	.pics {
 		margin-top: 60px;
 		border-radius: 5px;
-		background: rgba(2, 2, 2, 0.39);
+		/*background: rgba(2, 2, 2, 0.39); */
 	}
 
 	.aligncenterblock {
