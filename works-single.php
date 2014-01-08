@@ -109,7 +109,7 @@
 							echo '</div>';
 							$s2++;	
 							}
-							echo '<div class="fifteen columns offset-by-half alpha resdontshow"><hr></div>';
+							echo '<div class="fifteen columns offset-by-half alpha resdontshow"></div>';
 						}
 						}
 					?>
@@ -159,9 +159,9 @@
                                 <?php } ?>  
                           </div> -->
                                   <br class="clear" />
-                          <hr />
+                          <!-- <hr /> -->
                       </div>
-                        <hr class="resshow border-color-works" /> 
+                        <!-- <hr class="resshow border-color-works" /> -->
                     <div class="navigate pull-right">
                         <span class="pname"></span> 
                     <a href="<?php echo get_home_url(); ?>" data-title="All" title="<?php echo __("All Projects","dronetv");?>" data-type="works" data-token="<?php echo $token?>" class="navigate parent getworks-showmsg gohome">&nbsp;</a>
