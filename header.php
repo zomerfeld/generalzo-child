@@ -56,7 +56,9 @@
 	<!-- CSS
   ================================================== -->
     <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+    <!-- REMOVE BEFORE DEPLOYMENT
     <link rel="stylesheet" type="text/css" media="all" href="http://127.0.0.1/wp-content/themes/generalzo-child/style.css" />
+    -->
     <!--[if lt IE 9]>
 	<link rel="stylesheet" type="text/css" media="all" href="<?php echo get_template_directory_uri()?>/style_ie.css" />
 	<![endif]-->
