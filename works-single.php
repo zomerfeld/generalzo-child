@@ -20,7 +20,7 @@
 
 		<div class="columns navibg border-color">
             <div class="four columns alpha">
-            	<h3><?php _e('Works','dronetv'); ?></h3>
+            	<h3></h3>
             </div>
             
             <div class="twelve columns omega">
