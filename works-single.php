@@ -61,7 +61,7 @@
        <div class="postwraps sixteen columns showajaxcontent border-color">
                       <div class="fifteensp columns offset-by-half alpha">
                            <h2 class="titles" style="text-shadow:none!important;"><a href="<?php echo $permalink ?>" style="text-shadow:none!important;"><?php the_title(); ?></a></h2>
-                           <hr />
+                           <!-- <hr /> -->
                       </div>  
                       
                       <?php 
