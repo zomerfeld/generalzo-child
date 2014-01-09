@@ -96,7 +96,7 @@
                  }elseif(of_get_option('md_header_logo_text')) {
                     echo '<a href="'.home_url().'" class="main-logo" title="drone">'.of_get_option('md_header_logo_text').'</a>';	
                  }else{
-					echo '<a href="'.home_url().'" class="main-logo" title="drone">'.get_bloginfo('name').'</a>';
+					echo '<a href="'.home_url().'" class="main-logo" >'.get_bloginfo('name').'</a>';
 				 }
                  ?>
             </div>
