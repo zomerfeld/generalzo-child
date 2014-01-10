@@ -44,7 +44,7 @@ $getbr = getThumb($thumb);
                         $count_cats = count( $cats ); 
                         if ( $count_cats > 0 ) {
                     ?>
-                        <a href="#" data-rel="all" class="activemenu-bg <?php if(!isset($term)) { echo 'selected'; } ?>" data-th="<?php echo $getbr[3]?>" title="<?php echo __("ALL","dronetv");?>"><?php echo __("ALL","dronetv"); ?></a>
+                        <a href="/" data-rel="all" class="activemenu-bg <?php if(!isset($term)) { echo 'selected'; } ?>" data-th="<?php echo $getbr[3]?>" title="<?php echo __("ALL","dronetv");?>"><?php echo __("ALL","dronetv"); ?></a>
                     <?php		
                        foreach ($cats as $catd) { 
                     ?>
