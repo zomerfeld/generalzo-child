@@ -117,7 +117,16 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		 }
 	h4 { font-size: 21px; line-height: 26px; }
 	h5 { font-size: 18px; line-height: 23px; }
-	h6 { font-size: 12px; line-height: 21px; margin:5px 0 0 0 }
+	h6 { 
+		font-size: 14px;
+		line-height: 21px; 
+		margin:5px 0 0 10px; 
+	}
+
+	h6 a{
+		color:#6F6F6F;
+	}
+
 	.subheader { color: #777; }
 
 	p { margin: 5px 0 20px 0; line-height:1.7em; }
@@ -568,6 +577,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		h3 { font-size: 21px; line-height: 24px; }
 		h4 { font-size: 18px; line-height: 21px; }
 		h5 { font-size: 12px; line-height: 14px; }
+		h6 { font-size: 12px; line-height: 21px; margin:5px 0 0 10px }
+
 		
 
     }
@@ -1900,7 +1911,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		padding-bottom:30px;
 	}
 	div.postwraps { 
-		background-color:#fff; 
+		/*background-color:#fff; */
+		background:none;
 		line-height:1.7em;
 		display:block;
 		border-top:1px solid #ccc; 
@@ -2142,12 +2154,12 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		margin-bottom:10px;
 	}
 	footer span.footertext {
-		padding-top:3px;
 		display: inline-block;
 		padding-top: 4px;
 		color:inherit;
 		float:right;
 		font-size:0.9em
+		margin-right:50px;
 	}
 	footer span.social {
 	 	margin-top:-4px;
@@ -2593,7 +2605,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		display:none !important;
 	}
 
-	.singlecontent h1,h2,h3,h4,h5 {
+	.singlecontent h1,h2,h3,h4,h5,h6 {
 		color:#13AEBB;
 	}
 
