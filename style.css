@@ -87,7 +87,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* #Basic Styles
 ================================================== */
 	body {
-		background: #f0f0f0 url(images/bgpatterns/light_toast.png);
+		/*background: url(images/bgpatterns/light_toast.png); */
+background: -moz-linear-gradient(top, rgba(0,0,0,0.23) 0%, rgba(0,0,0,0.83) 36%, rgba(0,0,0,0) 100%),url(images/bgpatterns/light_toast.png); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0.83)), color-stop(36%,rgba(0,0,0,0.83)), color-stop(100%,rgba(0,0,0,0))),url(images/bgpatterns/light_toast.png); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(0,0,0,0.23) 0%,rgba(0,0,0,0.83) 36%,rgba(0,0,0,0) 100%),url(images/bgpatterns/light_toast.png); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(0,0,0,0.23) 0%,rgba(0,0,0,0.83) 36%,rgba(0,0,0,0) 100%),url(images/bgpatterns/light_toast.png); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(0,0,0,0.23) 0%,rgba(0,0,0,0.83) 36%,rgba(0,0,0,0) 100%),url(images/bgpatterns/light_toast.png); /* IE10+ */
+background: linear-gradient(to bottom, rgba(0,0,0,0.23) 0%,rgba(0,0,0,0.83) 36%,rgba(0,0,0,0) 100%),url(images/bgpatterns/light_toast.png); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d4000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
 		font: 14px/22px "Helvetica Neue", Arial, Helvetica, sans-serif;
 		/*color: #444; */
 		color:#6F6F6F;
@@ -101,7 +108,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	h1, h2, h3, h4, h5, h6 {
 		font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
 		/*color: #000; */
-		color:#13AEBB;
+		color:#C7C9C9;
 		font-weight: normal; 
 		/*text-shadow:0 1px 0 #fff */
 		}
@@ -112,7 +119,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 	h3 { 
 		font-size: 21px; 
 		line-height: 29px;
-		color:#495458 !important;
+		color:#969DA0 !important;
 		margin-left:10px;
 		 }
 	h4 { font-size: 21px; line-height: 26px; }
@@ -2281,10 +2288,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		color:#ad2d47;
 	}
 	a { /*color:#666;*/
-		color:#13AEBB;
+		/*color:#13AEBB; */
+		color:#C7C9C9;
 	 }
 	a:hover, a:focus { 
-		color:#C3E0E2;
+		color:#C3E2DE;
 	 }
 	
 	
@@ -2605,9 +2613,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 		display:none !important;
 	}
 
-	.singlecontent h1,h2,h3,h4,h5,h6 {
-		color:#13AEBB;
-	}
 
 	.pics {
 		margin-top: 60px;
